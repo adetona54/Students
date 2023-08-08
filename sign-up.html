@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="sign-up.css" />
+  </head>
+  <body>
+    <section class="body">
+      <header>
+        <h1>Register</h1>
+        <p>It is free and it only takes a minute</p>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#timetables">Timetables</a>
+          <a href="#">News</a>
+          <a href="sign-up.html">Sign up</a>
+        </nav>
+      </header>
+      <section>
+        <form action="signup.php" method="post">
+          <div class="names">
+            <input
+              type="text"
+              name="first_name"
+              placeholder="First Name"
+              required="required"
+            />
+            <input
+              type="email"
+              name="last_name"
+              placeholder="Last Name"
+              required="required"
+            />
+          </div>
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="password" placeholder="Password" />
+          <input
+            type="password"
+            name="confirm_password"
+            placeholder="Confirm Password"
+          />
+          <input type="submit" value="Signup" />
+        </form>
+      </section>
+      <footer>
+        <p>Copyright 2023. All rights reserved.</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </footer>
+    </section>
+  </body>
+</html>

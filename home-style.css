@@ -1,0 +1,1253 @@
+/*
+          SPACING SYSTEM (px)
+          2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+          FONT SIZE SYSTEM (px)
+          10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+          */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  border-bottom: 8px solid cadetblue;
+}
+
+body h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+body p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Rubik", sans-serif;
+}
+
+#para {
+  font-size: 18px;
+  color: black;
+  margin-left: 12px;
+}
+
+ul li {
+  color: rgb(7, 114, 117);
+  font-size: 18px;
+  margin-bottom: 14px;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 64px;
+}
+
+#logo-header {
+  width: 180px;
+  height: 120px;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+article {
+  margin: 0 auto;
+  width: 1290px;
+}
+
+.sub {
+  margin: 0 auto;
+  width: 1210px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+article h1,
+h2 {
+  color: rgb(19, 111, 114);
+  font-family: "Raleway", sans-serif;
+}
+
+.quote {
+  margin-left: 64px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.img {
+  width: auto;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 453px;
+  background: rgba(7, 80, 82, 0.493);
+}
+
+header div h1 {
+  color: blue;
+  font-family: "Raleway", sans-serif;
+}
+
+header div p {
+  color: cadetblue;
+  font-family: "Raleway", sans-serif;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+}
+
+nav a:link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:visited {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  font-size: 18px;
+  text-decoration: none;
+  color: cadetblue;
+}
+
+nav a:active {
+  color: cadetblue;
+  font-size: 18px;
+}
+
+/* Subscription */
+
+.plans {
+  margin-top: 72px;
+  margin-bottom: 52px;
+}
+
+.plan-1 h2 {
+  color: black;
+}
+
+.plan-2 h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.plan-3 h2 {
+  color: black;
+}
+
+.subscriptions {
+  margin-top: 64px;
+  margin-bottom: 14px;
+}
+
+.subscriptions h2 {
+  color: rgb(0, 132, 255);
+  text-align: center;
+}
+
+.plan-1 p {
+  font-size: 16px;
+  width: 200px;
+}
+
+#price {
+  width: fit-content;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 26px;
+  margin: 0;
+  color: blue;
+}
+
+.plan-1 {
+  background-color: rgb(0, 132, 255);
+  width: fit-content;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 20px 30px 0 rgba(135, 183, 228, 0.425);
+}
+
+.plan-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-1 {
+  padding: 10px 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: cadetblue;
+  color: blue;
+}
+
+.btn-1:hover {
+  background-color: rgb(161, 234, 236);
+  font-style: italic;
+}
+
+.btn-1:active {
+  background-color: rgb(161, 234, 236);
+  font-size: 28px;
+  font-style: oblique;
+  color: rgb(8, 84, 87);
+}
+
+button {
+  font-size: 24px;
+}
+
+.plan-2 {
+  background-color: cadetblue;
+  width: fit-content;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 20px 30px 0 rgba(163, 217, 219, 0.459);
+}
+
+.plan-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-2 p {
+  font-size: 16px;
+  width: 200px;
+}
+
+.btn-2 {
+  padding: 10px 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(161, 234, 236);
+  color: blue;
+}
+
+.btn-2:hover {
+  background-color: rgb(19, 180, 185);
+  font-style: italic;
+}
+
+.btn-2:active {
+  background-color: rgb(19, 180, 185);
+  font-size: 30px;
+  color: rgb(8, 84, 87);
+}
+
+.plan-3 {
+  background-color: rgb(0, 132, 255);
+  width: fit-content;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 20px 30px 0 rgba(135, 183, 228, 0.425);
+}
+
+.plan-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-3 p {
+  font-size: 16px;
+  width: 200px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.email {
+  padding: 8px;
+  background-color: white;
+  width: 320px;
+  border-radius: 32px;
+  border: none;
+  margin-bottom: 12px;
+}
+
+.minute {
+  width: 380px;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  border: solid 2px rgb(0, 103, 106);
+  width: 150px;
+  height: 32px;
+  border-radius: 45px;
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: hsl(239, 93%, 58%);
+  border: solid 2px rgb(0, 103, 106);
+  width: 150px;
+  height: 32px;
+  border-radius: 45px;
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+.footer-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 24px;
+}
+
+.head {
+  color: blue;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.footer-1 h2 {
+  color: blue;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.footer-2 {
+  background-color: rgb(7, 114, 117);
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.over {
+  display: flex;
+  flex-direction: column;
+}
+
+.log {
+  width: 130px;
+  height: 96px;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  column-gap: 12px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.phone p {
+  font-family: "Raleway", sans-serif;
+  color: #222222;
+  font-weight: bold;
+}
+
+.phone svg {
+  width: 20px;
+  fill: #222222;
+  border: none;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mail a {
+  font-family: "Raleway", sans-serif;
+  color: #222222;
+}
+
+.mail a:link {
+  color: #222222;
+  font-weight: bolder;
+}
+
+.mail a:visited {
+  color: #222222;
+}
+
+.mail a:hover {
+  color: #0e0e0e;
+}
+
+.mail a:active {
+  color: #222222;
+  font-size: medium;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contact {
+  margin-left: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Links */
+
+.about a:link {
+  color: #333232;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.about a:visited {
+  color: #333232;
+}
+
+.about a:hover {
+  color: #222222;
+  cursor: pointer;
+}
+
+.about a:active {
+  color: #333232;
+  cursor: grab;
+}
+
+.contact a:link {
+  color: #333232;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.contact a:visited {
+  color: #333232;
+}
+
+.contact a:hover {
+  color: #222222;
+  cursor: pointer;
+}
+
+.contact a:active {
+  color: #333232;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social a {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+/* Books */
+
+.text button {
+  margin-top: 12px;
+}
+
+.book1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.book1 img {
+  margin-bottom: 12px;
+}
+
+.book1 button {
+  width: fit-content;
+  font-size: 20px;
+  padding: 6px 34px;
+  background-color: rgb(7, 125, 128);
+  color: white;
+  border-radius: 5px;
+  border: 3px solid rgb(24, 176, 179);
+}
+
+.book1 button:hover {
+  background-color: rgb(178, 230, 231);
+  color: black;
+}
+
+.book1 button:active {
+  background-color: rgb(7, 125, 128);
+  color: white;
+}
+
+.book2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.book2 img {
+  margin-bottom: 12px;
+}
+
+.book2 button {
+  width: fit-content;
+  font-size: 20px;
+  padding: 6px 34px;
+  background-color: rgb(7, 125, 128);
+  color: white;
+  border-radius: 5px;
+  border: 3px solid rgb(24, 176, 179);
+}
+
+.book2 button:hover {
+  background-color: rgb(178, 230, 231);
+  color: black;
+}
+
+.book2 button:active {
+  background-color: rgb(7, 125, 128);
+  color: white;
+}
+
+.book3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.book3 img {
+  margin-bottom: 12px;
+}
+
+.book3 button {
+  width: fit-content;
+  font-size: 20px;
+  padding: 6px 34px;
+  background-color: rgb(7, 125, 128);
+  color: white;
+  border-radius: 5px;
+  border: 3px solid rgb(24, 176, 179);
+}
+
+.book3 button:hover {
+  background-color: rgb(178, 230, 231);
+  color: black;
+}
+
+.book3 button:active {
+  background-color: rgb(7, 125, 128);
+  color: white;
+}
+
+.textbook {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: rgb(178, 230, 231);
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.textbook h2 {
+  color: rgb(100, 91, 91);
+  text-align: center;
+  text-decoration: underline dotted rgb(100, 91, 91);
+}
+
+.textbook p {
+  margin-top: -4px;
+  margin-bottom: 26px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* TABLE */
+
+.table {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.table h2 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+  text-decoration: underline dotted cadetblue;
+}
+
+table {
+  width: 1200px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead tr {
+  background-color: #5f9ea0;
+  color: #fff;
+}
+
+thead th {
+  width: 25%;
+}
+
+th,
+td {
+  padding: 16px 18px;
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+/* PAGINATION */
+
+.page div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+.page div a:link {
+  font-size: 18px;
+  color: #343a40;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page div a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.page div a:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #10858b;
+  color: #fff;
+}
+
+.page div a:active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #10858b;
+  color: #fff;
+}
+
+.page div a:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #10858b;
+  color: #fff;
+}
+
+.btnn {
+  border-radius: 50%;
+  border: 1px solid #10858b;
+  background-color: #fff;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnn:hover {
+  background-color: #10858b;
+}
+
+.btnn:hover .btn-icon {
+  stroke: #fff;
+}
+
+.btnn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #10858b;
+  stroke-width: 2;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+  margin-top: -16px;
+}
+
+/* MEDIA QUERY */
+
+/* FOR MOBILES */
+
+@media screen and (max-width: 480px) {
+  body p {
+    font-size: 12px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+  }
+
+  header div p {
+    font-size: 10px;
+    margin-top: -3px;
+  }
+
+  nav a {
+    margin-top: -6px;
+    color: rgb(0, 0, 0);
+  }
+
+  nav a:link {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  nav a:visited {
+    font-size: 8px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    font-size: 8px;
+    text-decoration: none;
+    color: cadetblue;
+  }
+
+  nav a:active {
+    color: cadetblue;
+    font-size: 8px;
+  }
+
+  header div h1 {
+    font-size: 12px;
+  }
+
+  article {
+    width: 320px;
+  }
+
+  article h1 {
+    font-size: 12px;
+  }
+
+  article p {
+    font-size: 8px;
+  }
+
+  .quote {
+    width: 100px;
+    height: 120px;
+    margin-bottom: 6px;
+  }
+
+  .overlay {
+    width: 100px;
+    height: 120px;
+  }
+
+  .table h2 {
+    font-size: 9px;
+  }
+
+  table tr {
+    font-size: 6px;
+  }
+
+  table {
+    width: 310px;
+  }
+
+  .page div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+  }
+
+  .page div a:link {
+    font-size: 10px;
+    color: #343a40;
+    text-decoration: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btnn {
+    border-radius: 50%;
+    border: 1px solid #10858b;
+    background-color: #fff;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #para {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .new {
+    font-size: 14px;
+  }
+
+  .textbook {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgb(178, 230, 231);
+    padding: 24px;
+    border-radius: 12px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book1 button {
+    margin-top: -2px;
+    padding: 2px 24px;
+    font-size: 14px;
+  }
+
+  .book2 button {
+    margin-top: -2px;
+    padding: 2px 24px;
+    font-size: 14px;
+  }
+
+  .book3 button {
+    margin-top: -2px;
+    padding: 2px 24px;
+    font-size: 14px;
+  }
+
+  .text img {
+    width: 148px;
+    height: 162px;
+  }
+
+  .book2 {
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+
+  .textbook h2 {
+    font-size: 16px;
+  }
+
+  /* PLANS */
+
+  .sub {
+    width: 310px;
+  }
+
+  #price {
+    font-size: 18px;
+  }
+
+  .subscriptions h2 {
+    font-size: 14px;
+    font-style: oblique;
+  }
+
+  .subscriptions p {
+    font-size: 10px;
+    text-align-last: center;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plan-1 {
+    width: fit-content;
+    margin-top: -26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plan-2 {
+    width: fit-content;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plan-3 {
+    width: fit-content;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plans h2 {
+    font-size: 18px;
+  }
+
+  .plans p {
+    font-size: 12px;
+    width: 180px;
+    text-align-last: center;
+    padding: 0;
+  }
+
+  .btn-2 {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(161, 234, 236);
+    color: blue;
+  }
+
+  .btn-2:hover {
+    background-color: rgb(19, 180, 185);
+    font-style: italic;
+  }
+
+  .btn-2:active {
+    background-color: rgb(19, 180, 185);
+    color: rgb(8, 84, 87);
+    font-size: 18px;
+  }
+
+  .btn-1 {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(161, 234, 236);
+    color: blue;
+  }
+
+  .btn-1:hover {
+    background-color: rgb(19, 180, 185);
+    font-style: italic;
+  }
+
+  .btn-1:active {
+    background-color: rgb(19, 180, 185);
+    color: rgb(8, 84, 87);
+    font-size: 18px;
+  }
+
+  .btn-3 {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(161, 234, 236);
+    color: blue;
+  }
+
+  .btn-3:hover {
+    background-color: rgb(19, 180, 185);
+    font-style: italic;
+  }
+
+  .btn-3:active {
+    background-color: rgb(19, 180, 185);
+    color: rgb(8, 84, 87);
+    font-size: 18px;
+  }
+
+  .case {
+    margin-top: 12px;
+    font-size: 18px;
+  }
+
+  .footer-1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-1 h2 {
+    font-size: 17px;
+    margin-bottom: -8px;
+    text-align: center;
+  }
+
+  .footer-1 p {
+    width: 300px;
+    text-align-last: center;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    background-color: hsl(224, 93%, 58%);
+    border: solid 2px rgb(0, 103, 106);
+    width: 100px;
+    height: 24px;
+    border-radius: 45px;
+    margin-left: 24px;
+    font-size: 12px;
+  }
+
+  .btn:hover {
+    background-color: hsl(239, 93%, 58%);
+    border: solid 2px rgb(0, 103, 106);
+    width: 100px;
+    height: 24px;
+    border-radius: 45px;
+    margin-left: 24px;
+    font-size: 12px;
+  }
+
+  .email {
+    background-color: white;
+    width: 170px;
+    border: none;
+    margin-bottom: 12px;
+  }
+
+  .holder {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(5, 121, 125);
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .phone p {
+    color: black;
+    font-size: 14px;
+  }
+
+  .phone svg {
+    width: 22px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-2 .log {
+    display: none;
+  }
+
+  .mail a {
+    color: black;
+  }
+
+  .mail a:link {
+    color: black;
+    font-weight: bolder;
+  }
+
+  .mail a:visited {
+    color: black;
+  }
+
+  .mail a:hover {
+    color: rgb(4, 2, 2);
+  }
+
+  .mail a:active {
+    color: black;
+  }
+
+  .about a:link {
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  .about a:visited {
+    color: black;
+  }
+
+  .about a:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .about a:active {
+    color: black;
+    cursor: grab;
+  }
+
+  .contact a:link {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  .contact a:visited {
+    color: black;
+  }
+
+  .contact a:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .contact a:active {
+    color: black;
+    cursor: pointer;
+  }
+
+  .fill {
+    fill: rgb(31, 25, 25);
+    fill-rule: evenodd;
+  }
+
+  .contact {
+    margin-left: 0;
+  }
+}

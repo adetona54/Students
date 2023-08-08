@@ -1,0 +1,156 @@
+.well{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00486f;
+    height: fit-content;
+    padding: 82px;
+    border-radius: 45px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .welcome p{
+    width: 372px;
+    color: #c9d9da;
+    text-align-last: center;
+  }
+
+  .welcome h1{
+    align-self: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #c9d9da;
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(Images/blue.jpg);
+   background-size: cover;
+  }
+
+  
+
+  .email{
+    padding: 0 24px;
+    height: 32px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 10px 20px 0 rgba(237, 237, 237, 0.498);
+}
+
+
+.password{
+   height: 32px;
+   padding:0 24px;
+   border-radius: 50px;
+   width: 200px;
+   margin-top: 20px;
+   border: none;
+   box-shadow: 0 10px 20px 0 rgba(237, 237, 237, 0.498);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+button{
+    width: 172px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #1877F2 12%, #00507a 100%);
+}
+
+button:hover{
+    background: linear-gradient(90deg, #00486f 12%, #1877F2 100%);
+    cursor: pointer;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.sign p{
+margin-top: -16px;
+}
+
+.welcome{
+    margin-right: 52px;
+}
+
+
+
+
+p{
+    color: #a6bfd2;
+    font-weight: bold;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.account{
+    margin-top: 18px;
+}
+
+
+@media screen and (max-width: 991px){
+
+    .well{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .well{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        padding: 12px;
+    }
+
+   .welcome p{
+    text-align: center;
+    text-align-last: center;
+    width: fit-content;
+    align-self: center;
+   }
+
+}
+
+
+
+
